@@ -1,0 +1,27 @@
+================================================================
+  RECONCILIATION REPORT   Participant  vs  CH
+================================================================
+  Participant transactions ...    142,041
+  CH transactions ......          141,967
+  --------------------------------------------------
+  Clean matches ....................    141,872
+  Expected interconnect fees ......         79
+  --------------------------------------------------
+  Missing from CH           .......         79
+  Missing from Participant  .          5
+  Unexplained differences .........         11
+  ==================================================
+  >>> TOTAL TO CHASE:         95
+================================================================
+
+  -- Missing from CH (present in Participant) --
+     [REDACTED-ID-0001]    debit=0.80   credit=0.00
+     [REDACTED-ID-0002]    debit=0.00   credit=4.20
+     ... (example only — real IDs/amounts not included)
+
+  -- Unexplained amount differences (not a known fee tier) --
+     [REDACTED-ID-0003]   Participant: d=901.82 c=0.0 | CH: d=900.0 c=0.0 | gap=1.82
+     ... (example only)
+
+NOTE: This is a SANITIZED example showing the output format only.
+No real transaction data is included in this repository.
